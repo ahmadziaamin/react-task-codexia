@@ -60,7 +60,7 @@ const ContentPage = () => {
             }
           </div>
           <div className='select_input_main'>
-            <h5>Which type of “Fact” content do you want to create?</h5>
+            <h5>Which type of "{color}" content do you want to create?</h5>
             <div className='select_options'>
             <Form.Select aria-label="Default select example">
   
