@@ -1,0 +1,47 @@
+.content_main{
+    background-color: #292525;
+    min-height: 70vh ;
+    height: 100%;
+    padding: 20px 20px;
+    color: white;
+  
+}
+.option{
+    width: 100%;
+}
+.content_top_headind{
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(65, 57, 57);
+}
+.content_btn_div{
+    padding: 20px 0px;
+}
+
+.select_btn{
+    background: none;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    color: white;
+
+}
+.dual_para_select{
+    padding: 20px 0px;
+}
+.select_options{
+    padding: 20px 0px;
+    max-width: 400px;
+    width: 100%;
+}
+.form-select{
+    background-color: black !important;
+    color: white !important;
+    outline: none !important;
+}
+.form-select:focus{
+    outline: none !important;
+    box-sizing: none !important;
+    
+
+}

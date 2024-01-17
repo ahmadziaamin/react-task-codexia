@@ -1,0 +1,105 @@
+.navbar_parent{
+    background-color: black;
+    padding: 20px 20px;   
+    border-bottom: 1px solid rgb(65, 57, 57);
+}
+.navbar_child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.name_side{
+    display: flex;
+    align-items: center;
+
+}
+.back_btn{
+    width: 30px;
+    cursor: pointer;
+    padding: 8px 5px;
+    border-radius: 20px;
+
+    background-color: rgb(78, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_heading{
+color: white;
+font-size: 14px;
+font-weight: 600;
+max-width:180px;
+padding: 0px 5px;
+margin-bottom: 0px;
+margin-top: 0px;
+
+}
+.name_heading span{
+    color: white;
+   font-size: 12px;
+   font-weight: 400;
+    }
+.logo_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.perosn_name{
+    padding: 0px 10px;
+  
+}
+.perosn_name p{
+    font-size: 12px;
+    font-size: 400;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.perosn_name a{
+    font-size: 12px;
+    font-size: 400;
+    color: blue !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.profile_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+
+}
+.profile_img img{
+width: 100%;
+height: 100%;
+border-radius: 60px;
+}
+.back_icon{
+color: white !important;
+}
+.eddit_icon{
+    color: white !important;
+}
+@media only screen and (max-width: 600px){
+    .name_heading{
+        font-size: 10px;
+        max-width: 150px;
+    }
+    .back_btn{
+        width: 20px;
+        padding: 5px 4px;
+        border-radius: 20px;
+    }
+    .profile_img {
+        width: 30px;
+        height: 30px;
+    }
+    .perosn_name p{
+font-size: 10px;
+    }
+    .perosn_name a{
+font-size: 10px;
+    }
+
+}
